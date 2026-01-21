@@ -9,7 +9,7 @@ setup(
     packages=find_packages(exclude=["tests"]),
     python_requires=">=3.8",
     install_requires=[
-        "transaction-classifier-toolkit @ git+https://github.com/silv-mt-holdings/transaction-classifier-toolkit.git",
+        "transaction-classifier-toolkit",
         "pandas>=1.5.0",
         "numpy>=1.24.0",
     ],
